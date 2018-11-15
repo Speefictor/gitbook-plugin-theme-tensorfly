@@ -19,30 +19,8 @@
   ],
   "gitbook": {
     "properties": {
-      "header": {
-        "js": {
-          "type": "array",
-          "description": "List of JavaScript files to include",
-          "default": []
-        },
-        "css": {
-          "type": "array",
-          "description": "List of CSS files to include",
-          "default": []
-        }
-      },
-      "footer": {
-        "js": {
-          "type": "array",
-          "description": "List of JavaScript files to include",
-          "default": []
-        },
-        "css": {
-          "type": "array",
-          "description": "List of CSS files to include",
-          "default": []
-        }
-      }
+
+
     }
   },
   "author": "cunji.g@163.com",
