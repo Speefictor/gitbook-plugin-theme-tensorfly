@@ -1,0 +1,54 @@
+{
+  "name": "gitbook-plugin-theme-tensorfly",
+  "version": "0.1.0",
+  "description": "A gitbook theme.",
+  "main": "index.js",
+  "engines": {
+    "gitbook": ">2.x.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Speefictor/gitbook-plugin-theme-tensorfly.git"
+  },
+  "keywords": [
+    "gitBook",
+    "theme"
+  ],
+  "gitbook": {
+    "properties": {
+      "header": {
+        "js": {
+          "type": "array",
+          "description": "List of JavaScript files to include",
+          "default": []
+        },
+        "css": {
+          "type": "array",
+          "description": "List of CSS files to include",
+          "default": []
+        }
+      },
+      "footer": {
+        "js": {
+          "type": "array",
+          "description": "List of JavaScript files to include",
+          "default": []
+        },
+        "css": {
+          "type": "array",
+          "description": "List of CSS files to include",
+          "default": []
+        }
+      }
+    }
+  },
+  "author": "cunji.g@163.com",
+  "license": "",
+  "bugs": {
+    "url": "https://github.com/Speefictor/gitbook-plugin-theme-tensorfly/issues"
+  },
+  "homepage": "https://github.com/Speefictor/gitbook-plugin-theme-tensorfly#readme"
+}

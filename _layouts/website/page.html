@@ -1,0 +1,37 @@
+{% extends template.self %}
+
+{% block style %}
+{{ super() }}
+{% endblock %}
+
+
+
+
+{% block body %}
+<header>
+    <nav>
+        <a href="/" class="logo"></a>
+        <div id="groups">
+            <div>
+                <a href="/tfdoc/get_started/introduction.html">新手入门</a>
+                <a href="/tfdoc/tutorials/overview.html">完整教程</a>
+                <a href="/tfdoc/how_tos/overview.html">进阶指南</a>
+            </div>
+            <div>
+                <a href="/tfdoc/api_docs/index.html">API中文手册</a>
+                <a href="/home">精华文章</a>
+                <a href="/bbs">TF社区</a>
+            </div>
+        </div>
+    </nav>
+</header>
+{{ super() }}
+{% endblock %}
+
+
+{% block javascript %}
+{{ super() }}
+<script>
+    console.log("hello;;;;")
+</script>
+{% endblock %}
